@@ -323,7 +323,6 @@ str = '''Абакан
 
 
 
-str = str.replace('\n', '"\xa0"')
-str = str.replace('\xa0', ',')
+str = str.replace('\n', '","')
 print(str)
 
